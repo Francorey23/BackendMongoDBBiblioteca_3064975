@@ -23,5 +23,5 @@ app.get('/', (req, res) => {
 mongoose.connect(process.env.MONGODB_URI, {
 
 })
-.then(() => console.log('Conectado a la base de datos MongoDB'))
+.then(() => console.log('Conectado a MongoDB Atlas'))
 .catch((error) => console.error('Error al conectar a la BD:', error));
